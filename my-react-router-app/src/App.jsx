@@ -11,7 +11,7 @@ export default function App() {
                         if (route.index) {
                             return (
                                 <NavLink key={index} to="/" end>
-                                    Головна
+                                    Home
                                 </NavLink>
                             );
                         }
